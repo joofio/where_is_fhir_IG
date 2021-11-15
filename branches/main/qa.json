@@ -1,0 +1,12 @@
+{
+  "url": "http://hl7.org/fhir/us/example/ImplementationGuide/medication.ig.example",
+  "name": "WhereISFHIRIG",
+  "package-id": "medication.ig.example",
+  "ig-ver": "0.1.0",
+  "date": "Mon, 15 Nov, 2021 11:58:20 +0000",
+  "errs": 7,
+  "warnings": 77,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "4.6.0 (3)"
+}

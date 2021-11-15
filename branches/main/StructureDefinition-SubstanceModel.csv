@@ -1,0 +1,70 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"SubstanceModel","","","",0,*,"","","","","Substance logical model","Substance logical model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"SubstanceModel.identifier","","","",0,*,"","","","Identifier {[]} {[]}
+","Business identifier for this medication","Business identifier for this medication","","","","","","","","","",,,,,"",,,,"SubstanceModel.identifier",0,*,"",""
+"SubstanceModel.code","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Code that identifies this medication","Code that identifies this medication","","","","","","","","","",,,,,"",,,,"SubstanceModel.code",0,*,"",""
+"SubstanceModel.version","","","",0,1,"","","","string {[]} {[]}
+","business version of the product","business version of the product","","","","","","","","","",,,,,"",,,,"SubstanceModel.version",0,1,"",""
+"SubstanceModel.regulatoryStatus","","","",0,1,"","","","string {[]} {[]}
+","active non active","active non active","","","","","","","","","",,,,,"",,,,"SubstanceModel.regulatoryStatus",0,1,"",""
+"SubstanceModel.domain","","","",0,1,"","","","string {[]} {[]}
+","human or veterinary","human or veterinary","","","","","","","","","",,,,,"",,,,"SubstanceModel.domain",0,1,"",""
+"SubstanceModel.indication","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","indication of the product","human or veterinary","","","","","","","","","",,,,,"",,,,"SubstanceModel.indication",0,*,"",""
+"SubstanceModel.associatedCondition","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","associated conditions","associated conditions","","","","","","","","","",,,,,"",,,,"SubstanceModel.associatedCondition",0,*,"",""
+"SubstanceModel.name","","","",1,*,"","","","BackboneElement {[]} {[]}
+","Product Name","Product Name","","","","","","","","","",,,,,"",,,,"SubstanceModel.name",1,*,"",""
+"SubstanceModel.name.productName","","","",1,1,"","","","string {[]} {[]}
+","actual name of the product","actual name of the product","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.productName",1,1,"",""
+"SubstanceModel.name.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","type of naming","type of naming","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.type",1,1,"",""
+"SubstanceModel.name.namePart","","","",0,*,"","","","BackboneElement {[]} {[]}
+","selecting parts of name for inteligeble purposes","selecting parts of name for inteligeble purposes","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.namePart",0,*,"",""
+"SubstanceModel.name.namePart.part","","","",1,1,"","","","string {[]} {[]}
+","part of name","part of name","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.namePart.part",1,1,"",""
+"SubstanceModel.name.namePart.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","type of elemente defining -strength, pharmaceutical form, etc","type of elemente defining -strength, pharmaceutical form, etc","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.namePart.type",1,1,"",""
+"SubstanceModel.name.countryLanguage","","","",0,*,"","","","BackboneElement {[]} {[]}
+","country for which country the name is defined","country for which country the name is defined","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.countryLanguage",0,*,"",""
+"SubstanceModel.name.countryLanguage.country","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","country","country","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.countryLanguage.country",1,1,"",""
+"SubstanceModel.name.countryLanguage.jurisdiction","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","jurisdiction that applies","jurisdiction that applies","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.countryLanguage.jurisdiction",0,1,"",""
+"SubstanceModel.name.countryLanguage.language","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","language applicable","language applicable","","","","","","","","","",,,,,"",,,,"SubstanceModel.name.countryLanguage.language",1,1,"",""
+"SubstanceModel.granularity","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product","level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product","","","","","","","","","",,,,,"",,,,"SubstanceModel.granularity",0,1,"",""
+"SubstanceModel.mechanismOfAction","","","",0,1,"","","","string {[]} {[]}
+","mechanism of action of drug","mechanism of action of drug","","","","","","","","","",,,,,"",,,,"SubstanceModel.mechanismOfAction",0,1,"",""
+"SubstanceModel.drugType","","","",0,1,"","","","string {[]} {[]}
+","type of drug - small molecule, biologic, etc","type of drug - small molecule, biologic, etc","","","","","","","","","",,,,,"",,,,"SubstanceModel.drugType",0,1,"",""
+"SubstanceModel.sideEffects","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","side effects known","side effects known","","","","","","","","","",,,,,"",,,,"SubstanceModel.sideEffects",0,*,"",""
+"SubstanceModel.interactions","","","",0,*,"","","","BackboneElement {[]} {[]}
+","known interactions","known interactions","","","","","","","","","",,,,,"",,,,"SubstanceModel.interactions",0,*,"",""
+"SubstanceModel.interactions.type","","","",1,1,"","","","string {[]} {[]}
+","type of interaction","type of interaction","","","","","","","","","",,,,,"",,,,"SubstanceModel.interactions.type",1,1,"",""
+"SubstanceModel.interactions.substance","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/MedicationKnowledge]]}
+","product","product","","","","","","","","","",,,,,"",,,,"SubstanceModel.interactions.substance",1,1,"",""
+"SubstanceModel.interactions.reaction","","","",0,1,"","","","string {[]} {[]}
+","what is the reaction","what is the reaction","","","","","","","","","",,,,,"",,,,"SubstanceModel.interactions.reaction",0,1,"",""
+"SubstanceModel.interactions.riskLevel","","","",0,1,"","","","string {[]} {[]}
+","level of risk","level of risk","","","","","","","","","",,,,,"",,,,"SubstanceModel.interactions.riskLevel",0,1,"",""
+"SubstanceModel.interactions.clinicalIssue","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DetectedIssue]]}
+","reference for clinicalIssue","reference for clinicalIssue","","","","","","","","","",,,,,"",,,,"SubstanceModel.interactions.clinicalIssue",0,*,"",""
+"SubstanceModel.contraIndication","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","contraindication","contraindication","","","","","","","","","",,,,,"",,,,"SubstanceModel.contraIndication",0,*,"",""
+"SubstanceModel.monograph","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference]]}
+","Associated documentation about the medication","Associated documentation about the medication","","","","","","","","","",,,,,"",,,,"SubstanceModel.monograph",0,*,"",""
+"SubstanceModel.masterfile","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference]]}
+","masterfile from where the product comes from","masterfile from where the product comes from","","","","","","","","","",,,,,"",,,,"SubstanceModel.masterfile",0,*,"",""
+"SubstanceModel.classification","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","drug classification, atc, internal, etc","drug classification, atc, internal, etc","","","","","","","","","",,,,,"",,,,"SubstanceModel.classification",0,*,"",""
+"SubstanceModel.drugCharacteristics","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","characteristics for drug, opioid, etc","characteristics for drug, opioid, etc","","","","","","","","","",,,,,"",,,,"SubstanceModel.drugCharacteristics",0,*,"",""
+"SubstanceModel.marketingAuthorization","","","",0,1,"","","","Reference {[]} {[]}
+","marketing auhtorization of product","marketing auhtorization of product","","","","","","","","","",,,,,"",,,,"SubstanceModel.marketingAuthorization",0,1,"",""
+"SubstanceModel.marketingAuthorizationHolder","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
+","holder of the marketing authorization","holder of the marketing authorization","","","","","","","","","",,,,,"",,,,"SubstanceModel.marketingAuthorizationHolder",0,*,"",""

@@ -1,0 +1,156 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"MedicinalProduct","","","",0,*,"","","","","Medicinal Product logical model","Medicinal Product logical model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"MedicinalProduct.identifier","","","",0,*,"","","","Identifier {[]} {[]}
+","Business identifier for this medication","Business identifier for this medication","","","","","","","","","",,,,,"",,,,"MedicinalProduct.identifier",0,*,"",""
+"MedicinalProduct.code","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Code that identifies this medication","Code that identifies this medication","","","","","","","","","",,,,,"",,,,"MedicinalProduct.code",0,*,"",""
+"MedicinalProduct.version","","","",0,1,"","","","string {[]} {[]}
+","business version of the product","business version of the product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.version",0,1,"",""
+"MedicinalProduct.regulatoryStatus","","","",0,1,"","","","string {[]} {[]}
+","active non active","active non active","","","","","","","","","",,,,,"",,,,"MedicinalProduct.regulatoryStatus",0,1,"",""
+"MedicinalProduct.domain","","","",0,1,"","","","string {[]} {[]}
+","human or veterinary","human or veterinary","","","","","","","","","",,,,,"",,,,"MedicinalProduct.domain",0,1,"",""
+"MedicinalProduct.indication","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","indication of the product","human or veterinary","","","","","","","","","",,,,,"",,,,"MedicinalProduct.indication",0,*,"",""
+"MedicinalProduct.associatedCondition","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","associated conditions","associated conditions","","","","","","","","","",,,,,"",,,,"MedicinalProduct.associatedCondition",0,*,"",""
+"MedicinalProduct.name","","","",1,*,"","","","BackboneElement {[]} {[]}
+","Product Name","Product Name","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name",1,*,"",""
+"MedicinalProduct.name.productName","","","",1,1,"","","","string {[]} {[]}
+","actual name of the product","actual name of the product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.productName",1,1,"",""
+"MedicinalProduct.name.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","type of naming","type of naming","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.type",1,1,"",""
+"MedicinalProduct.name.namePart","","","",0,*,"","","","BackboneElement {[]} {[]}
+","selecting parts of name for inteligeble purposes","selecting parts of name for inteligeble purposes","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.namePart",0,*,"",""
+"MedicinalProduct.name.namePart.part","","","",1,1,"","","","string {[]} {[]}
+","part of name","part of name","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.namePart.part",1,1,"",""
+"MedicinalProduct.name.namePart.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","type of elemente defining -strength, pharmaceutical form, etc","type of elemente defining -strength, pharmaceutical form, etc","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.namePart.type",1,1,"",""
+"MedicinalProduct.name.countryLanguage","","","",0,*,"","","","BackboneElement {[]} {[]}
+","country for which country the name is defined","country for which country the name is defined","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.countryLanguage",0,*,"",""
+"MedicinalProduct.name.countryLanguage.country","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","country","country","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.countryLanguage.country",1,1,"",""
+"MedicinalProduct.name.countryLanguage.jurisdiction","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","jurisdiction that applies","jurisdiction that applies","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.countryLanguage.jurisdiction",0,1,"",""
+"MedicinalProduct.name.countryLanguage.language","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","language applicable","language applicable","","","","","","","","","",,,,,"",,,,"MedicinalProduct.name.countryLanguage.language",1,1,"",""
+"MedicinalProduct.granularity","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product","level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.granularity",0,1,"",""
+"MedicinalProduct.kinetics","","","",0,1,"","","","BackboneElement {[]} {[]}
+","pharmacokinetics information","pharmacokinetics information","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics",0,1,"",""
+"MedicinalProduct.kinetics.areaUnderCurve","","","",0,1,"","","","BackboneElement {[]} {[]}
+","auc values","auc values","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.areaUnderCurve",0,1,"",""
+"MedicinalProduct.kinetics.areaUnderCurve.value","","","",1,1,"","","","decimal {[]} {[]}
+","value of auc","value of auc","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.areaUnderCurve.value",1,1,"",""
+"MedicinalProduct.kinetics.areaUnderCurve.unit","","","",1,1,"","","","string {[]} {[]}
+","unit of auc","unit of auc","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.areaUnderCurve.unit",1,1,"",""
+"MedicinalProduct.kinetics.halfLifePeriod","","","",0,1,"","","","BackboneElement {[]} {[]}
+","half life period of drug","half life period of drug","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.halfLifePeriod",0,1,"",""
+"MedicinalProduct.kinetics.halfLifePeriod.value","","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/allergyintolerance-duration]]} {[]}
+","value","value","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.halfLifePeriod.value",1,1,"",""
+"MedicinalProduct.kinetics.halfLifePeriod.administration","","","",1,1,"","","","BackboneElement {[]} {[]}
+","administration method of the half life period","administration method of the half life period","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.halfLifePeriod.administration",1,1,"",""
+"MedicinalProduct.kinetics.halfLifePeriod.administration.route","","","",0,1,"","","","string {[]} {[]}
+","route of administration","route of administration","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.halfLifePeriod.administration.route",0,1,"",""
+"MedicinalProduct.kinetics.halfLifePeriod.administration.value","","","",1,1,"","","","decimal {[]} {[]}
+","quantity ","quantity ","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.halfLifePeriod.administration.value",1,1,"",""
+"MedicinalProduct.kinetics.halfLifePeriod.administration.unit","","","",1,1,"","","","string {[]} {[]}
+","unit of quantity administered","unit of quantity administered","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.halfLifePeriod.administration.unit",1,1,"",""
+"MedicinalProduct.kinetics.bioavailability","","","",0,1,"","","","BackboneElement {[]} {[]}
+","bioavailability of product","bioavailability of product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.bioavailability",0,1,"",""
+"MedicinalProduct.kinetics.bioavailability.value","","","",1,1,"","","","decimal {[]} {[]}
+","value for bioavailability","value for bioavailability","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.bioavailability.value",1,1,"",""
+"MedicinalProduct.kinetics.bioavailability.unit","","","",1,1,"","","","string {[]} {[]}
+","unit for bioavailability","unit for bioavailability","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.bioavailability.unit",1,1,"",""
+"MedicinalProduct.kinetics.bioavailability.route","","","",0,1,"","","","string {[]} {[]}
+","route for which it was administered","route for which it was administered","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.bioavailability.route",0,1,"",""
+"MedicinalProduct.kinetics.elimination","","","",0,*,"","","","string {[]} {[]}
+","eliminination format of drug","eliminination format of drug","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.elimination",0,*,"",""
+"MedicinalProduct.kinetics.LD50","","","",0,1,"","","","BackboneElement {[]} {[]}
+","lethal dose 50% for product","lethal dose 50% for product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.LD50",0,1,"",""
+"MedicinalProduct.kinetics.LD50.value","","","",1,1,"","","","decimal {[]} {[]}
+","value for LD50","value for LD50","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.LD50.value",1,1,"",""
+"MedicinalProduct.kinetics.LD50.unit","","","",1,1,"","","","string {[]} {[]}
+","unit for LD50","unit for LD50","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.LD50.unit",1,1,"",""
+"MedicinalProduct.kinetics.LD50.route","","","",0,1,"","","","string {[]} {[]}
+","route for LD50","route for LD50","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.LD50.route",0,1,"",""
+"MedicinalProduct.kinetics.LD50.document","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference]]}
+","documentation of test","documentation of test","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.LD50.document",0,1,"",""
+"MedicinalProduct.kinetics.LD50.specimen","","","",0,1,"","","","string {[]} {[]}
+","specimen tested","specimen tested","","","","","","","","","",,,,,"",,,,"MedicinalProduct.kinetics.LD50.specimen",0,1,"",""
+"MedicinalProduct.mechanismOfAction","","","",0,1,"","","","string {[]} {[]}
+","mechanism of action of drug","mechanism of action of drug","","","","","","","","","",,,,,"",,,,"MedicinalProduct.mechanismOfAction",0,1,"",""
+"MedicinalProduct.drugType","","","",0,1,"","","","string {[]} {[]}
+","type of drug - small molecule, biologic, etc","type of drug - small molecule, biologic, etc","","","","","","","","","",,,,,"",,,,"MedicinalProduct.drugType",0,1,"",""
+"MedicinalProduct.sideEffects","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","side effects known","side effects known","","","","","","","","","",,,,,"",,,,"MedicinalProduct.sideEffects",0,*,"",""
+"MedicinalProduct.interactions","","","",0,*,"","","","BackboneElement {[]} {[]}
+","known interactions","known interactions","","","","","","","","","",,,,,"",,,,"MedicinalProduct.interactions",0,*,"",""
+"MedicinalProduct.interactions.type","","","",1,1,"","","","string {[]} {[]}
+","type of interaction","type of interaction","","","","","","","","","",,,,,"",,,,"MedicinalProduct.interactions.type",1,1,"",""
+"MedicinalProduct.interactions.substance","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/MedicationKnowledge]]}
+","product","product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.interactions.substance",1,1,"",""
+"MedicinalProduct.interactions.reaction","","","",0,1,"","","","string {[]} {[]}
+","what is the reaction","what is the reaction","","","","","","","","","",,,,,"",,,,"MedicinalProduct.interactions.reaction",0,1,"",""
+"MedicinalProduct.interactions.riskLevel","","","",0,1,"","","","string {[]} {[]}
+","level of risk","level of risk","","","","","","","","","",,,,,"",,,,"MedicinalProduct.interactions.riskLevel",0,1,"",""
+"MedicinalProduct.interactions.clinicalIssue","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DetectedIssue]]}
+","reference for clinicalIssue","reference for clinicalIssue","","","","","","","","","",,,,,"",,,,"MedicinalProduct.interactions.clinicalIssue",0,*,"",""
+"MedicinalProduct.contraIndication","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","contraindication","contraindication","","","","","","","","","",,,,,"",,,,"MedicinalProduct.contraIndication",0,*,"",""
+"MedicinalProduct.monograph","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference]]}
+","Associated documentation about the medication","Associated documentation about the medication","","","","","","","","","",,,,,"",,,,"MedicinalProduct.monograph",0,*,"",""
+"MedicinalProduct.masterfile","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference]]}
+","masterfile from where the product comes from","masterfile from where the product comes from","","","","","","","","","",,,,,"",,,,"MedicinalProduct.masterfile",0,*,"",""
+"MedicinalProduct.classification","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","drug classification, atc, internal, etc","drug classification, atc, internal, etc","","","","","","","","","",,,,,"",,,,"MedicinalProduct.classification",0,*,"",""
+"MedicinalProduct.drugCharacteristics","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","characteristics for drug, opioid, etc","characteristics for drug, opioid, etc","","","","","","","","","",,,,,"",,,,"MedicinalProduct.drugCharacteristics",0,*,"",""
+"MedicinalProduct.administratitionRoute","","","",1,*,"","","","BackboneElement {[]} {[]}
+","route for administrating","route for administrating","","","","","","","","","",,,,,"",,,,"MedicinalProduct.administratitionRoute",1,*,"",""
+"MedicinalProduct.administratitionRoute.route","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","route for administrating","route for administrating","","","","","","","","","",,,,,"",,,,"MedicinalProduct.administratitionRoute.route",1,1,"",""
+"MedicinalProduct.administratitionRoute.type","","","",1,1,"","","","string {[]} {[]}
+","type of route administration, offlabel, official","type of route administration, offlabel, official","","","","","","","","","",,,,,"",,,,"MedicinalProduct.administratitionRoute.type",1,1,"",""
+"MedicinalProduct.ingredient","","","",0,*,"","","","BackboneElement {[]} {[]}
+","substance present in the product","substance present in the product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ingredient",0,*,"",""
+"MedicinalProduct.ingredient.reference","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/MedicationKnowledge]]}
+","referencing other substances","referencing other substances","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ingredient.reference",1,1,"",""
+"MedicinalProduct.ingredient.role","","","",1,1,"","","","string {[]} {[]}
+","active principle, color, excipient","active principle, color, excipient","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ingredient.role",1,1,"",""
+"MedicinalProduct.ingredient.strength[x]","","","",1,1,"","","","Ratio {[]} {[]}
+CodeableConcept {[]} {[]}Quantity {[]} {[]}","strength of the ingridient","strength of the ingridient","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ingredient.strength[x]",1,1,"",""
+"MedicinalProduct.pharmaceuticalForm","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","pharmaceutical Form","pharmaceutical Form","","","","","","","","","",,,,,"",,,,"MedicinalProduct.pharmaceuticalForm",1,1,"",""
+"MedicinalProduct.pharmacoeconomics","","","",0,1,"","","","BackboneElement {[]} {[]}
+","pharmacoeconomics assessments","pharmacoeconomics assessments","","","","","","","","","",,,,,"",,,,"MedicinalProduct.pharmacoeconomics",0,1,"",""
+"MedicinalProduct.pharmacoeconomics.value","","","",1,1,"","","","string {[]} {[]}
+","value","value","","","","","","","","","",,,,,"",,,,"MedicinalProduct.pharmacoeconomics.value",1,1,"",""
+"MedicinalProduct.pharmacoeconomics.unit","","","",1,1,"","","","string {[]} {[]}
+","unit","unit","","","","","","","","","",,,,,"",,,,"MedicinalProduct.pharmacoeconomics.unit",1,1,"",""
+"MedicinalProduct.pharmacoeconomics.source","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference]]}
+","source of documentation","source of documentation","","","","","","","","","",,,,,"",,,,"MedicinalProduct.pharmacoeconomics.source",1,1,"",""
+"MedicinalProduct.pharmacoeconomics.condition","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","condition for which it applies.","condition for which it applies.","","","","","","","","","",,,,,"",,,,"MedicinalProduct.pharmacoeconomics.condition",0,1,"",""
+"MedicinalProduct.marketingAuthorization","","","",0,1,"","","","Reference {[]} {[]}
+","marketing auhtorization of product","marketing auhtorization of product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.marketingAuthorization",0,1,"",""
+"MedicinalProduct.marketingAuthorizationHolder","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
+","holder of the marketing authorization","holder of the marketing authorization","","","","","","","","","",,,,,"",,,,"MedicinalProduct.marketingAuthorizationHolder",0,*,"",""
+"MedicinalProduct.clinicalTrial","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/ResearchStudy]]}
+","trials done with the product","trials done with the product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.clinicalTrial",0,*,"",""
+"MedicinalProduct.price","","","",0,1,"","","","BackboneElement {[]} {[]}
+","pricing information","pricing information","","","","","","","","","",,,,,"",,,,"MedicinalProduct.price",0,1,"",""
+"MedicinalProduct.price.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","type of price","type of price","","","","","","","","","",,,,,"",,,,"MedicinalProduct.price.type",1,1,"",""
+"MedicinalProduct.price.source","","","",0,1,"","","","string {[]} {[]}
+","source of it","source of it","","","","","","","","","",,,,,"",,,,"MedicinalProduct.price.source",0,1,"",""
+"MedicinalProduct.price.cost","","","",1,1,"","","","Money {[]} {[]}
+","value of the price","value of the price","","","","","","","","","",,,,,"",,,,"MedicinalProduct.price.cost",1,1,"",""
+"MedicinalProduct.preparationInstructions","","","",0,1,"","","","markdown {[]} {[]}
+","The instructions for preparing the medication","The instructions for preparing the medication","","","","","","","","","",,,,,"",,,,"MedicinalProduct.preparationInstructions",0,1,"",""
+"MedicinalProduct.administrationInstructions","","","",0,1,"","","","markdown {[]} {[]}
+","The instructions for administring the medication","The instructions for administring the medication","","","","","","","","","",,,,,"",,,,"MedicinalProduct.administrationInstructions",0,1,"",""
+"MedicinalProduct.productImage","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Binary]]}
+","image of the product","image of the product","","","","","","","","","",,,,,"",,,,"MedicinalProduct.productImage",0,*,"",""
+"MedicinalProduct.impurity","","","",0,*,"","","","Reference {[]} {[]}
+","impurities potentially contained in product, allergenes, etc","impurities potentially contained in product, allergenes, etc","","","","","","","","","",,,,,"",,,,"MedicinalProduct.impurity",0,*,"",""
