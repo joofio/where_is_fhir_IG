@@ -1,0 +1,132 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"VirtualPackagePharmaceuticalProduct","","","",0,*,"","","","","VMPP logical model","VMPP logical model.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.identifier","","","",0,*,"","","","Identifier {[]} {[]}
+","Business identifier for this medication","Business identifier for this medication","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.identifier",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.code","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Code that identifies this medication","Code that identifies this medication","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.code",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.version","","","",0,1,"","","","string {[]} {[]}
+","business version of the product","business version of the product","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.version",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.regulatoryStatus","","","",0,1,"","","","string {[]} {[]}
+","active non active","active non active","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.regulatoryStatus",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.domain","","","",0,1,"","","","string {[]} {[]}
+","human or veterinary","human or veterinary","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.domain",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.indication","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","indication of the product","human or veterinary","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.indication",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.associatedCondition","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","associated conditions","associated conditions","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.associatedCondition",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.name","","","",1,*,"","","","BackboneElement {[]} {[]}
+","Product Name","Product Name","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name",1,*,"",""
+"VirtualPackagePharmaceuticalProduct.name.productName","","","",1,1,"","","","string {[]} {[]}
+","actual name of the product","actual name of the product","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.productName",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.name.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","type of naming","type of naming","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.type",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.name.namePart","","","",0,*,"","","","BackboneElement {[]} {[]}
+","selecting parts of name for inteligeble purposes","selecting parts of name for inteligeble purposes","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.namePart",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.name.namePart.part","","","",1,1,"","","","string {[]} {[]}
+","part of name","part of name","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.namePart.part",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.name.namePart.type","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","type of elemente defining -strength, pharmaceutical form, etc","type of elemente defining -strength, pharmaceutical form, etc","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.namePart.type",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.name.countryLanguage","","","",0,*,"","","","BackboneElement {[]} {[]}
+","country for which country the name is defined","country for which country the name is defined","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.countryLanguage",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.name.countryLanguage.country","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","country","country","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.countryLanguage.country",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","jurisdiction that applies","jurisdiction that applies","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.name.countryLanguage.language","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","language applicable","language applicable","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.name.countryLanguage.language",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.granularity","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product","level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.granularity",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics","","","",0,1,"","","","BackboneElement {[]} {[]}
+","pharmacokinetics information","pharmacokinetics information","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve","","","",0,1,"","","","BackboneElement {[]} {[]}
+","auc values","auc values","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value","","","",1,1,"","","","decimal {[]} {[]}
+","value of auc","value of auc","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit","","","",1,1,"","","","string {[]} {[]}
+","unit of auc","unit of auc","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod","","","",0,1,"","","","BackboneElement {[]} {[]}
+","half life period of drug","half life period of drug","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value","","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/allergyintolerance-duration]]} {[]}
+","value","value","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration","","","",1,1,"","","","BackboneElement {[]} {[]}
+","administration method of the half life period","administration method of the half life period","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route","","","",0,1,"","","","string {[]} {[]}
+","route of administration","route of administration","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value","","","",1,1,"","","","decimal {[]} {[]}
+","quantity ","quantity ","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit","","","",1,1,"","","","string {[]} {[]}
+","unit of quantity administered","unit of quantity administered","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.bioavailability","","","",0,1,"","","","BackboneElement {[]} {[]}
+","bioavailability of product","bioavailability of product","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.bioavailability",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value","","","",1,1,"","","","decimal {[]} {[]}
+","value for bioavailability","value for bioavailability","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit","","","",1,1,"","","","string {[]} {[]}
+","unit for bioavailability","unit for bioavailability","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route","","","",0,1,"","","","string {[]} {[]}
+","route for which it was administered","route for which it was administered","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.elimination","","","",0,*,"","","","string {[]} {[]}
+","eliminination format of drug","eliminination format of drug","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.elimination",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.LD50","","","",0,1,"","","","BackboneElement {[]} {[]}
+","lethal dose 50% for product","lethal dose 50% for product","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.LD50",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.LD50.value","","","",1,1,"","","","decimal {[]} {[]}
+","value for LD50","value for LD50","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.LD50.value",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit","","","",1,1,"","","","string {[]} {[]}
+","unit for LD50","unit for LD50","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.LD50.route","","","",0,1,"","","","string {[]} {[]}
+","route for LD50","route for LD50","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.LD50.route",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.LD50.document","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference]]}
+","documentation of test","documentation of test","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.LD50.document",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen","","","",0,1,"","","","string {[]} {[]}
+","specimen tested","specimen tested","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.mechanismOfAction","","","",0,1,"","","","string {[]} {[]}
+","mechanism of action of drug","mechanism of action of drug","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.mechanismOfAction",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.drugType","","","",0,1,"","","","string {[]} {[]}
+","type of drug - small molecule, biologic, etc","type of drug - small molecule, biologic, etc","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.drugType",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.sideEffects","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","side effects known","side effects known","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.sideEffects",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.interactions","","","",0,*,"","","","BackboneElement {[]} {[]}
+","known interactions","known interactions","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.interactions",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.interactions.type","","","",1,1,"","","","string {[]} {[]}
+","type of interaction","type of interaction","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.interactions.type",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.interactions.substance","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/MedicationKnowledge]]}
+","product","product","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.interactions.substance",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.interactions.reaction","","","",0,1,"","","","string {[]} {[]}
+","what is the reaction","what is the reaction","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.interactions.reaction",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.interactions.riskLevel","","","",0,1,"","","","string {[]} {[]}
+","level of risk","level of risk","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.interactions.riskLevel",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DetectedIssue]]}
+","reference for clinicalIssue","reference for clinicalIssue","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.contraIndication","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","contraindication","contraindication","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.contraIndication",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.masterfile","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/DocumentReference]]}
+","masterfile from where the product comes from","masterfile from where the product comes from","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.masterfile",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.classification","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","drug classification, atc, internal, etc","drug classification, atc, internal, etc","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.classification",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.drugCharacteristics","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","characteristics for drug, opioid, etc","characteristics for drug, opioid, etc","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.drugCharacteristics",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.administratitionRoute","","","",1,*,"","","","BackboneElement {[]} {[]}
+","route for administrating","route for administrating","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.administratitionRoute",1,*,"",""
+"VirtualPackagePharmaceuticalProduct.administratitionRoute.route","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","route for administrating","route for administrating","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.administratitionRoute.route",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.administratitionRoute.type","","","",1,1,"","","","string {[]} {[]}
+","type of route administration, offlabel, official","type of route administration, offlabel, official","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.administratitionRoute.type",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.ingredient","","","",0,*,"","","","BackboneElement {[]} {[]}
+","substance present in the product","substance present in the product","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.ingredient",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.ingredient.reference","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/MedicationKnowledge]]}
+","referencing other substances","referencing other substances","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.ingredient.reference",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.ingredient.role","","","",1,1,"","","","string {[]} {[]}
+","active principle, color, excipient","active principle, color, excipient","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.ingredient.role",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.ingredient.strength[x]","","","",1,1,"","","","Ratio {[]} {[]}
+CodeableConcept {[]} {[]}Quantity {[]} {[]}","strength of the ingridient","strength of the ingridient","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.ingredient.strength[x]",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.pharmaceuticalForm","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","pharmaceutical Form","pharmaceutical Form","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.pharmaceuticalForm",1,1,"",""
+"VirtualPackagePharmaceuticalProduct.package","","","",0,*,"","","","BackboneElement {[]} {[]}
+","packaging information","packaging information","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.package",0,*,"",""
+"VirtualPackagePharmaceuticalProduct.package.description","","","",0,1,"","","","markdown {[]} {[]}
+","description of the package","description of the package","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.package.description",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.package.type","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","type of package","type of package","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.package.type",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.package.closureType","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","type of closure","type of closure","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.package.closureType",0,1,"",""
+"VirtualPackagePharmaceuticalProduct.package.size","","","",0,1,"","","","integer {[]} {[]}
+","size - nr of elements","size - nr of elements","","","","","","","","","",,,,,"",,,,"VirtualPackagePharmaceuticalProduct.package.size",0,1,"",""

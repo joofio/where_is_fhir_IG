@@ -1,0 +1,58 @@
+[
+  {
+    "id": "medication.ig.example",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.org/fhir/us/example/ImplementationGuide/medication.ig.example",
+    "version": "0.1.0",
+    "name": "WhereISFHIRIG"
+  },
+  {
+    "id": "MedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/example/StructureDefinition/MedicinalProduct",
+    "version": "0.1.0",
+    "name": "MedicinalProduct"
+  },
+  {
+    "id": "PackagedMedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/example/StructureDefinition/PackagedMedicinalProduct",
+    "version": "0.1.0",
+    "name": "PackagedMedicinalProduct"
+  },
+  {
+    "id": "PharmaceuticalProdut",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/example/StructureDefinition/PharmaceuticalProdut",
+    "version": "0.1.0",
+    "name": "PharmaceuticalProdut"
+  },
+  {
+    "id": "SubstanceModel",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/example/StructureDefinition/SubstanceModel",
+    "version": "0.1.0",
+    "name": "SubstanceModel"
+  },
+  {
+    "id": "VirtualPackagePharmaceuticalProduct",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/example/StructureDefinition/VirtualPackagePharmaceuticalProduct",
+    "version": "0.1.0",
+    "name": "VirtualPackagePharmaceuticalProduct"
+  },
+  {
+    "id": "VirtualPharmaceuticalProdut",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/example/StructureDefinition/VirtualPharmaceuticalProdut",
+    "version": "0.1.0",
+    "name": "VirtualPharmaceuticalProdut"
+  },
+  {
+    "id": "VirtualPharmaceuticalProdutGroup",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/example/StructureDefinition/VirtualPharmaceuticalProdutGroup",
+    "version": "0.1.0",
+    "name": "VirtualPharmaceuticalProdutGroup"
+  }
+]

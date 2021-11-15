@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="VirtualPackagePharmaceuticalProduct"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct" title="VMPP logical model.">VirtualPackagePharmaceuticalProduct</a><a name="VirtualPackagePharmaceuticalProduct"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">VMPP logical model</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.identifier" title="Business identifier for this medication">identifier</a><a name="VirtualPackagePharmaceuticalProduct.identifier"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Business identifier for this medication<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.code" title="Code that identifies this medication">code</a><a name="VirtualPackagePharmaceuticalProduct.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Code that identifies this medication<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.version" title="business version of the product">version</a><a name="VirtualPackagePharmaceuticalProduct.version"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">business version of the product</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.regulatoryStatus" title="active non active">regulatoryStatus</a><a name="VirtualPackagePharmaceuticalProduct.regulatoryStatus"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">active non active</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.domain" title="human or veterinary">domain</a><a name="VirtualPackagePharmaceuticalProduct.domain"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">human or veterinary</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.indication" title="human or veterinary">indication</a><a name="VirtualPackagePharmaceuticalProduct.indication"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">indication of the product<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.associatedCondition" title="associated conditions">associatedCondition</a><a name="VirtualPackagePharmaceuticalProduct.associatedCondition"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">associated conditions<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name" title="Product Name">name</a><a name="VirtualPackagePharmaceuticalProduct.name"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Product Name<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.productName" title="actual name of the product">productName</a><a name="VirtualPackagePharmaceuticalProduct.name.productName"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">actual name of the product</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.type" title="type of naming">type</a><a name="VirtualPackagePharmaceuticalProduct.name.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">type of naming</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.namePart" title="selecting parts of name for inteligeble purposes">namePart</a><a name="VirtualPackagePharmaceuticalProduct.name.namePart"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">selecting parts of name for inteligeble purposes<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.namePart.part" title="part of name">part</a><a name="VirtualPackagePharmaceuticalProduct.name.namePart.part"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">part of name</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.namePart.type" title="type of elemente defining -strength, pharmaceutical form, etc">type</a><a name="VirtualPackagePharmaceuticalProduct.name.namePart.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">type of elemente defining -strength, pharmaceutical form, etc</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.countryLanguage" title="country for which country the name is defined">countryLanguage</a><a name="VirtualPackagePharmaceuticalProduct.name.countryLanguage"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">country for which country the name is defined<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.countryLanguage.country" title="country">country</a><a name="VirtualPackagePharmaceuticalProduct.name.countryLanguage.country"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">country</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction" title="jurisdiction that applies">jurisdiction</a><a name="VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">jurisdiction that applies</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.name.countryLanguage.language" title="language applicable">language</a><a name="VirtualPackagePharmaceuticalProduct.name.countryLanguage.language"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">language applicable</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.granularity" title="level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product">granularity</a><a name="VirtualPackagePharmaceuticalProduct.granularity"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics" title="pharmacokinetics information">kinetics</a><a name="VirtualPackagePharmaceuticalProduct.kinetics"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">pharmacokinetics information</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve" title="auc values">areaUnderCurve</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">auc values</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value" title="value of auc">value</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#decimal">decimal</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">value of auc</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit" title="unit of auc">unit</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">unit of auc</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod" title="half life period of drug">halfLifePeriod</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">half life period of drug</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value" title="value">value</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/extension-allergyintolerance-duration.html" title="Extension">duration</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">value</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration" title="administration method of the half life period">administration</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">administration method of the half life period</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route" title="route of administration">route</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">route of administration</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value" title="quantity ">value</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#decimal">decimal</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">quantity </td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit" title="unit of quantity administered">unit</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">unit of quantity administered</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.bioavailability" title="bioavailability of product">bioavailability</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">bioavailability of product</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value" title="value for bioavailability">value</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#decimal">decimal</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">value for bioavailability</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit" title="unit for bioavailability">unit</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">unit for bioavailability</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route" title="route for which it was administered">route</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">route for which it was administered</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.elimination" title="eliminination format of drug">elimination</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.elimination"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">eliminination format of drug<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.LD50" title="lethal dose 50% for product">LD50</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.LD50"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">lethal dose 50% for product</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.LD50.value" title="value for LD50">value</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.LD50.value"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#decimal">decimal</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">value for LD50</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit" title="unit for LD50">unit</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">unit for LD50</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.LD50.route" title="route for LD50">route</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.LD50.route"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">route for LD50</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.LD50.document" title="documentation of test">document</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.LD50.document"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/documentreference.html">DocumentReference</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">documentation of test</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen" title="specimen tested">specimen</a><a name="VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">specimen tested</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.mechanismOfAction" title="mechanism of action of drug">mechanismOfAction</a><a name="VirtualPackagePharmaceuticalProduct.mechanismOfAction"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">mechanism of action of drug</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.drugType" title="type of drug - small molecule, biologic, etc">drugType</a><a name="VirtualPackagePharmaceuticalProduct.drugType"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">type of drug - small molecule, biologic, etc</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.sideEffects" title="side effects known">sideEffects</a><a name="VirtualPackagePharmaceuticalProduct.sideEffects"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">side effects known<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.interactions" title="known interactions">interactions</a><a name="VirtualPackagePharmaceuticalProduct.interactions"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">known interactions<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.interactions.type" title="type of interaction">type</a><a name="VirtualPackagePharmaceuticalProduct.interactions.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">type of interaction</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.interactions.substance" title="product">substance</a><a name="VirtualPackagePharmaceuticalProduct.interactions.substance"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/medicationknowledge.html">MedicationKnowledge</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">product</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.interactions.reaction" title="what is the reaction">reaction</a><a name="VirtualPackagePharmaceuticalProduct.interactions.reaction"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">what is the reaction</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.interactions.riskLevel" title="level of risk">riskLevel</a><a name="VirtualPackagePharmaceuticalProduct.interactions.riskLevel"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">level of risk</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue" title="reference for clinicalIssue">clinicalIssue</a><a name="VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/detectedissue.html">DetectedIssue</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">reference for clinicalIssue<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.contraIndication" title="contraindication">contraIndication</a><a name="VirtualPackagePharmaceuticalProduct.contraIndication"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">contraindication<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.masterfile" title="masterfile from where the product comes from">masterfile</a><a name="VirtualPackagePharmaceuticalProduct.masterfile"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/documentreference.html">DocumentReference</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">masterfile from where the product comes from<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.classification" title="drug classification, atc, internal, etc">classification</a><a name="VirtualPackagePharmaceuticalProduct.classification"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">drug classification, atc, internal, etc<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.drugCharacteristics" title="characteristics for drug, opioid, etc">drugCharacteristics</a><a name="VirtualPackagePharmaceuticalProduct.drugCharacteristics"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">characteristics for drug, opioid, etc<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.administratitionRoute" title="route for administrating">administratitionRoute</a><a name="VirtualPackagePharmaceuticalProduct.administratitionRoute"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">route for administrating<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.administratitionRoute.route" title="route for administrating">route</a><a name="VirtualPackagePharmaceuticalProduct.administratitionRoute.route"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">route for administrating</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.administratitionRoute.type" title="type of route administration, offlabel, official">type</a><a name="VirtualPackagePharmaceuticalProduct.administratitionRoute.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">type of route administration, offlabel, official</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.ingredient" title="substance present in the product">ingredient</a><a name="VirtualPackagePharmaceuticalProduct.ingredient"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">substance present in the product<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.ingredient.reference" title="referencing other substances">reference</a><a name="VirtualPackagePharmaceuticalProduct.ingredient.reference"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/medicationknowledge.html">MedicationKnowledge</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">referencing other substances</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.ingredient.role" title="active principle, color, excipient">role</a><a name="VirtualPackagePharmaceuticalProduct.ingredient.role"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">active principle, color, excipient</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_choice.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Choice of Types" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.ingredient.strength[x]" title="strength of the ingridient">strength[x]</a><a name="VirtualPackagePharmaceuticalProduct.ingredient.strength_x_"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">strength of the ingridient</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <span title="Base StructureDefinition for Ratio Type: A relationship of two Quantity values - expressed as a numerator and a denominator.">strengthRatio</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Ratio">Ratio</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span title="Base StructureDefinition for CodeableConcept Type: A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.">strengthCodeableConcept</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <span title="Base StructureDefinition for Quantity Type: A measured amount (or an amount that can potentially be measured). Note that measured amounts include amounts that are not precisely quantified, including amounts involving arbitrary units and floating currencies.">strengthQuantity</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">Quantity</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.pharmaceuticalForm" title="pharmaceutical Form">pharmaceuticalForm</a><a name="VirtualPackagePharmaceuticalProduct.pharmaceuticalForm"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">pharmaceutical Form</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.package" title="packaging information">package</a><a name="VirtualPackagePharmaceuticalProduct.package"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">packaging information<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.package.description" title="description of the package">description</a><a name="VirtualPackagePharmaceuticalProduct.package.description"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#markdown">markdown</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">description of the package</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.package.type" title="type of package">type</a><a name="VirtualPackagePharmaceuticalProduct.package.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">type of package</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.package.closureType" title="type of closure">closureType</a><a name="VirtualPackagePharmaceuticalProduct.package.closureType"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">type of closure</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-VirtualPackagePharmaceuticalProduct-definitions.html#VirtualPackagePharmaceuticalProduct.package.size" title="size - nr of elements">size</a><a name="VirtualPackagePharmaceuticalProduct.package.size"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">size - nr of elements</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/example/StructureDefinition/VirtualPackagePharmaceuticalProduct"/>
+  <version value="0.1.0"/>
+  <name value="VirtualPackagePharmaceuticalProduct"/>
+  <title value="VMPP logical model"/>
+  <status value="active"/>
+  <date value="2021-11-15T11:58:20+00:00"/>
+  <description value="VMPP logical model."/>
+  <fhirVersion value="4.0.1"/>
+  <mapping>
+    <identity value="rim"/>
+    <uri value="http://hl7.org/v3"/>
+    <name value="RIM Mapping"/>
+  </mapping>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://hl7.org/fhir/us/example/StructureDefinition/VirtualPackagePharmaceuticalProduct"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <element id="VirtualPackagePharmaceuticalProduct">
+      <path value="VirtualPackagePharmaceuticalProduct"/>
+      <short value="VMPP logical model"/>
+      <definition value="VMPP logical model."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.identifier">
+      <path value="VirtualPackagePharmaceuticalProduct.identifier"/>
+      <short value="Business identifier for this medication"/>
+      <definition value="Business identifier for this medication"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.identifier"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.code">
+      <path value="VirtualPackagePharmaceuticalProduct.code"/>
+      <short value="Code that identifies this medication"/>
+      <definition value="Code that identifies this medication"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.code"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.version">
+      <path value="VirtualPackagePharmaceuticalProduct.version"/>
+      <short value="business version of the product"/>
+      <definition value="business version of the product"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.version"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.regulatoryStatus">
+      <path value="VirtualPackagePharmaceuticalProduct.regulatoryStatus"/>
+      <short value="active non active"/>
+      <definition value="active non active"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.regulatoryStatus"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.domain">
+      <path value="VirtualPackagePharmaceuticalProduct.domain"/>
+      <short value="human or veterinary"/>
+      <definition value="human or veterinary"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.domain"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.indication">
+      <path value="VirtualPackagePharmaceuticalProduct.indication"/>
+      <short value="indication of the product"/>
+      <definition value="human or veterinary"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.indication"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.associatedCondition">
+      <path value="VirtualPackagePharmaceuticalProduct.associatedCondition"/>
+      <short value="associated conditions"/>
+      <definition value="associated conditions"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.associatedCondition"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name">
+      <path value="VirtualPackagePharmaceuticalProduct.name"/>
+      <short value="Product Name"/>
+      <definition value="Product Name"/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.productName">
+      <path value="VirtualPackagePharmaceuticalProduct.name.productName"/>
+      <short value="actual name of the product"/>
+      <definition value="actual name of the product"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.productName"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.type">
+      <path value="VirtualPackagePharmaceuticalProduct.name.type"/>
+      <short value="type of naming"/>
+      <definition value="type of naming"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.namePart">
+      <path value="VirtualPackagePharmaceuticalProduct.name.namePart"/>
+      <short value="selecting parts of name for inteligeble purposes"/>
+      <definition value="selecting parts of name for inteligeble purposes"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.namePart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.namePart.part">
+      <path value="VirtualPackagePharmaceuticalProduct.name.namePart.part"/>
+      <short value="part of name"/>
+      <definition value="part of name"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.namePart.part"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.namePart.type">
+      <path value="VirtualPackagePharmaceuticalProduct.name.namePart.type"/>
+      <short value="type of elemente defining -strength, pharmaceutical form, etc"/>
+      <definition value="type of elemente defining -strength, pharmaceutical form, etc"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.namePart.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.countryLanguage">
+      <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage"/>
+      <short value="country for which country the name is defined"/>
+      <definition value="country for which country the name is defined"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.countryLanguage.country">
+      <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.country"/>
+      <short value="country"/>
+      <definition value="country"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.country"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction">
+      <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction"/>
+      <short value="jurisdiction that applies"/>
+      <definition value="jurisdiction that applies"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.countryLanguage.language">
+      <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.language"/>
+      <short value="language applicable"/>
+      <definition value="language applicable"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.language"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.granularity">
+      <path value="VirtualPackagePharmaceuticalProduct.granularity"/>
+      <short value="level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product"/>
+      <definition value="level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.granularity"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics"/>
+      <short value="pharmacokinetics information"/>
+      <definition value="pharmacokinetics information"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve"/>
+      <short value="auc values"/>
+      <definition value="auc values"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value"/>
+      <short value="value of auc"/>
+      <definition value="value of auc"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit"/>
+      <short value="unit of auc"/>
+      <definition value="unit of auc"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod"/>
+      <short value="half life period of drug"/>
+      <definition value="half life period of drug"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value"/>
+      <short value="value"/>
+      <definition value="value"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/allergyintolerance-duration"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration"/>
+      <short value="administration method of the half life period"/>
+      <definition value="administration method of the half life period"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route"/>
+      <short value="route of administration"/>
+      <definition value="route of administration"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value"/>
+      <short value="quantity "/>
+      <definition value="quantity "/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit"/>
+      <short value="unit of quantity administered"/>
+      <definition value="unit of quantity administered"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability"/>
+      <short value="bioavailability of product"/>
+      <definition value="bioavailability of product"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value"/>
+      <short value="value for bioavailability"/>
+      <definition value="value for bioavailability"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit"/>
+      <short value="unit for bioavailability"/>
+      <definition value="unit for bioavailability"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route"/>
+      <short value="route for which it was administered"/>
+      <definition value="route for which it was administered"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.elimination">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.elimination"/>
+      <short value="eliminination format of drug"/>
+      <definition value="eliminination format of drug"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.elimination"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50"/>
+      <short value="lethal dose 50% for product"/>
+      <definition value="lethal dose 50% for product"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.value"/>
+      <short value="value for LD50"/>
+      <definition value="value for LD50"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.value"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="decimal"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit"/>
+      <short value="unit for LD50"/>
+      <definition value="unit for LD50"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.route">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.route"/>
+      <short value="route for LD50"/>
+      <definition value="route for LD50"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.route"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.document">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.document"/>
+      <short value="documentation of test"/>
+      <definition value="documentation of test"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.document"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen"/>
+      <short value="specimen tested"/>
+      <definition value="specimen tested"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.mechanismOfAction">
+      <path value="VirtualPackagePharmaceuticalProduct.mechanismOfAction"/>
+      <short value="mechanism of action of drug"/>
+      <definition value="mechanism of action of drug"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.mechanismOfAction"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.drugType">
+      <path value="VirtualPackagePharmaceuticalProduct.drugType"/>
+      <short value="type of drug - small molecule, biologic, etc"/>
+      <definition value="type of drug - small molecule, biologic, etc"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.drugType"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.sideEffects">
+      <path value="VirtualPackagePharmaceuticalProduct.sideEffects"/>
+      <short value="side effects known"/>
+      <definition value="side effects known"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.sideEffects"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions"/>
+      <short value="known interactions"/>
+      <definition value="known interactions"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.interactions"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.type">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.type"/>
+      <short value="type of interaction"/>
+      <definition value="type of interaction"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.interactions.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.substance">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.substance"/>
+      <short value="product"/>
+      <definition value="product"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.interactions.substance"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.reaction">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.reaction"/>
+      <short value="what is the reaction"/>
+      <definition value="what is the reaction"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.interactions.reaction"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.riskLevel">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.riskLevel"/>
+      <short value="level of risk"/>
+      <definition value="level of risk"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.interactions.riskLevel"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue"/>
+      <short value="reference for clinicalIssue"/>
+      <definition value="reference for clinicalIssue"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DetectedIssue"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.contraIndication">
+      <path value="VirtualPackagePharmaceuticalProduct.contraIndication"/>
+      <short value="contraindication"/>
+      <definition value="contraindication"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.contraIndication"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.masterfile">
+      <path value="VirtualPackagePharmaceuticalProduct.masterfile"/>
+      <short value="masterfile from where the product comes from"/>
+      <definition value="masterfile from where the product comes from"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.masterfile"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.classification">
+      <path value="VirtualPackagePharmaceuticalProduct.classification"/>
+      <short value="drug classification, atc, internal, etc"/>
+      <definition value="drug classification, atc, internal, etc"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.classification"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.drugCharacteristics">
+      <path value="VirtualPackagePharmaceuticalProduct.drugCharacteristics"/>
+      <short value="characteristics for drug, opioid, etc"/>
+      <definition value="characteristics for drug, opioid, etc"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.drugCharacteristics"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.administratitionRoute">
+      <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute"/>
+      <short value="route for administrating"/>
+      <definition value="route for administrating"/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.administratitionRoute.route">
+      <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute.route"/>
+      <short value="route for administrating"/>
+      <definition value="route for administrating"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute.route"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.administratitionRoute.type">
+      <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute.type"/>
+      <short value="type of route administration, offlabel, official"/>
+      <definition value="type of route administration, offlabel, official"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.ingredient">
+      <path value="VirtualPackagePharmaceuticalProduct.ingredient"/>
+      <short value="substance present in the product"/>
+      <definition value="substance present in the product"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.ingredient"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.ingredient.reference">
+      <path value="VirtualPackagePharmaceuticalProduct.ingredient.reference"/>
+      <short value="referencing other substances"/>
+      <definition value="referencing other substances"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.ingredient.reference"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.ingredient.role">
+      <path value="VirtualPackagePharmaceuticalProduct.ingredient.role"/>
+      <short value="active principle, color, excipient"/>
+      <definition value="active principle, color, excipient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.ingredient.role"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.ingredient.strength[x]">
+      <path value="VirtualPackagePharmaceuticalProduct.ingredient.strength[x]"/>
+      <short value="strength of the ingridient"/>
+      <definition value="strength of the ingridient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.ingredient.strength[x]"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Ratio"/>
+      </type>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <type>
+        <code value="Quantity"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.pharmaceuticalForm">
+      <path value="VirtualPackagePharmaceuticalProduct.pharmaceuticalForm"/>
+      <short value="pharmaceutical Form"/>
+      <definition value="pharmaceutical Form"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.pharmaceuticalForm"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package">
+      <path value="VirtualPackagePharmaceuticalProduct.package"/>
+      <short value="packaging information"/>
+      <definition value="packaging information"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.package"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package.description">
+      <path value="VirtualPackagePharmaceuticalProduct.package.description"/>
+      <short value="description of the package"/>
+      <definition value="description of the package"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.package.description"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="markdown"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package.type">
+      <path value="VirtualPackagePharmaceuticalProduct.package.type"/>
+      <short value="type of package"/>
+      <definition value="type of package"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.package.type"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package.closureType">
+      <path value="VirtualPackagePharmaceuticalProduct.package.closureType"/>
+      <short value="type of closure"/>
+      <definition value="type of closure"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.package.closureType"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package.size">
+      <path value="VirtualPackagePharmaceuticalProduct.package.size"/>
+      <short value="size - nr of elements"/>
+      <definition value="size - nr of elements"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="VirtualPackagePharmaceuticalProduct.package.size"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="VirtualPackagePharmaceuticalProduct">
+      <path value="VirtualPackagePharmaceuticalProduct"/>
+      <short value="VMPP logical model"/>
+      <definition value="VMPP logical model."/>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.identifier">
+      <path value="VirtualPackagePharmaceuticalProduct.identifier"/>
+      <short value="Business identifier for this medication"/>
+      <definition value="Business identifier for this medication"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.code">
+      <path value="VirtualPackagePharmaceuticalProduct.code"/>
+      <short value="Code that identifies this medication"/>
+      <definition value="Code that identifies this medication"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.version">
+      <path value="VirtualPackagePharmaceuticalProduct.version"/>
+      <short value="business version of the product"/>
+      <definition value="business version of the product"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.regulatoryStatus">
+      <path value="VirtualPackagePharmaceuticalProduct.regulatoryStatus"/>
+      <short value="active non active"/>
+      <definition value="active non active"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.domain">
+      <path value="VirtualPackagePharmaceuticalProduct.domain"/>
+      <short value="human or veterinary"/>
+      <definition value="human or veterinary"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.indication">
+      <path value="VirtualPackagePharmaceuticalProduct.indication"/>
+      <short value="indication of the product"/>
+      <definition value="human or veterinary"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.associatedCondition">
+      <path value="VirtualPackagePharmaceuticalProduct.associatedCondition"/>
+      <short value="associated conditions"/>
+      <definition value="associated conditions"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name">
+      <path value="VirtualPackagePharmaceuticalProduct.name"/>
+      <short value="Product Name"/>
+      <definition value="Product Name"/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.productName">
+      <path value="VirtualPackagePharmaceuticalProduct.name.productName"/>
+      <short value="actual name of the product"/>
+      <definition value="actual name of the product"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.type">
+      <path value="VirtualPackagePharmaceuticalProduct.name.type"/>
+      <short value="type of naming"/>
+      <definition value="type of naming"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.namePart">
+      <path value="VirtualPackagePharmaceuticalProduct.name.namePart"/>
+      <short value="selecting parts of name for inteligeble purposes"/>
+      <definition value="selecting parts of name for inteligeble purposes"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.namePart.part">
+      <path value="VirtualPackagePharmaceuticalProduct.name.namePart.part"/>
+      <short value="part of name"/>
+      <definition value="part of name"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.namePart.type">
+      <path value="VirtualPackagePharmaceuticalProduct.name.namePart.type"/>
+      <short value="type of elemente defining -strength, pharmaceutical form, etc"/>
+      <definition value="type of elemente defining -strength, pharmaceutical form, etc"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.countryLanguage">
+      <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage"/>
+      <short value="country for which country the name is defined"/>
+      <definition value="country for which country the name is defined"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.countryLanguage.country">
+      <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.country"/>
+      <short value="country"/>
+      <definition value="country"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction">
+      <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.jurisdiction"/>
+      <short value="jurisdiction that applies"/>
+      <definition value="jurisdiction that applies"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.name.countryLanguage.language">
+      <path value="VirtualPackagePharmaceuticalProduct.name.countryLanguage.language"/>
+      <short value="language applicable"/>
+      <definition value="language applicable"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.granularity">
+      <path value="VirtualPackagePharmaceuticalProduct.granularity"/>
+      <short value="level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product"/>
+      <definition value="level of product, substance, pharmaceutical product, medicinal product or packaged medicinal product"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics"/>
+      <short value="pharmacokinetics information"/>
+      <definition value="pharmacokinetics information"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve"/>
+      <short value="auc values"/>
+      <definition value="auc values"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.value"/>
+      <short value="value of auc"/>
+      <definition value="value of auc"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="decimal"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.areaUnderCurve.unit"/>
+      <short value="unit of auc"/>
+      <definition value="unit of auc"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod"/>
+      <short value="half life period of drug"/>
+      <definition value="half life period of drug"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.value"/>
+      <short value="value"/>
+      <definition value="value"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Extension"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/allergyintolerance-duration"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration"/>
+      <short value="administration method of the half life period"/>
+      <definition value="administration method of the half life period"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.route"/>
+      <short value="route of administration"/>
+      <definition value="route of administration"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.value"/>
+      <short value="quantity "/>
+      <definition value="quantity "/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="decimal"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod.administration.unit"/>
+      <short value="unit of quantity administered"/>
+      <definition value="unit of quantity administered"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability"/>
+      <short value="bioavailability of product"/>
+      <definition value="bioavailability of product"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.value"/>
+      <short value="value for bioavailability"/>
+      <definition value="value for bioavailability"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="decimal"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.unit"/>
+      <short value="unit for bioavailability"/>
+      <definition value="unit for bioavailability"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.bioavailability.route"/>
+      <short value="route for which it was administered"/>
+      <definition value="route for which it was administered"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.elimination">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.elimination"/>
+      <short value="eliminination format of drug"/>
+      <definition value="eliminination format of drug"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50"/>
+      <short value="lethal dose 50% for product"/>
+      <definition value="lethal dose 50% for product"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.value">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.value"/>
+      <short value="value for LD50"/>
+      <definition value="value for LD50"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="decimal"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.unit"/>
+      <short value="unit for LD50"/>
+      <definition value="unit for LD50"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.route">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.route"/>
+      <short value="route for LD50"/>
+      <definition value="route for LD50"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.document">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.document"/>
+      <short value="documentation of test"/>
+      <definition value="documentation of test"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen">
+      <path value="VirtualPackagePharmaceuticalProduct.kinetics.LD50.specimen"/>
+      <short value="specimen tested"/>
+      <definition value="specimen tested"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.mechanismOfAction">
+      <path value="VirtualPackagePharmaceuticalProduct.mechanismOfAction"/>
+      <short value="mechanism of action of drug"/>
+      <definition value="mechanism of action of drug"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.drugType">
+      <path value="VirtualPackagePharmaceuticalProduct.drugType"/>
+      <short value="type of drug - small molecule, biologic, etc"/>
+      <definition value="type of drug - small molecule, biologic, etc"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.sideEffects">
+      <path value="VirtualPackagePharmaceuticalProduct.sideEffects"/>
+      <short value="side effects known"/>
+      <definition value="side effects known"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions"/>
+      <short value="known interactions"/>
+      <definition value="known interactions"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.type">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.type"/>
+      <short value="type of interaction"/>
+      <definition value="type of interaction"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.substance">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.substance"/>
+      <short value="product"/>
+      <definition value="product"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.reaction">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.reaction"/>
+      <short value="what is the reaction"/>
+      <definition value="what is the reaction"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.riskLevel">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.riskLevel"/>
+      <short value="level of risk"/>
+      <definition value="level of risk"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue">
+      <path value="VirtualPackagePharmaceuticalProduct.interactions.clinicalIssue"/>
+      <short value="reference for clinicalIssue"/>
+      <definition value="reference for clinicalIssue"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DetectedIssue"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.contraIndication">
+      <path value="VirtualPackagePharmaceuticalProduct.contraIndication"/>
+      <short value="contraindication"/>
+      <definition value="contraindication"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.masterfile">
+      <path value="VirtualPackagePharmaceuticalProduct.masterfile"/>
+      <short value="masterfile from where the product comes from"/>
+      <definition value="masterfile from where the product comes from"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.classification">
+      <path value="VirtualPackagePharmaceuticalProduct.classification"/>
+      <short value="drug classification, atc, internal, etc"/>
+      <definition value="drug classification, atc, internal, etc"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.drugCharacteristics">
+      <path value="VirtualPackagePharmaceuticalProduct.drugCharacteristics"/>
+      <short value="characteristics for drug, opioid, etc"/>
+      <definition value="characteristics for drug, opioid, etc"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.administratitionRoute">
+      <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute"/>
+      <short value="route for administrating"/>
+      <definition value="route for administrating"/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.administratitionRoute.route">
+      <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute.route"/>
+      <short value="route for administrating"/>
+      <definition value="route for administrating"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.administratitionRoute.type">
+      <path value="VirtualPackagePharmaceuticalProduct.administratitionRoute.type"/>
+      <short value="type of route administration, offlabel, official"/>
+      <definition value="type of route administration, offlabel, official"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.ingredient">
+      <path value="VirtualPackagePharmaceuticalProduct.ingredient"/>
+      <short value="substance present in the product"/>
+      <definition value="substance present in the product"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.ingredient.reference">
+      <path value="VirtualPackagePharmaceuticalProduct.ingredient.reference"/>
+      <short value="referencing other substances"/>
+      <definition value="referencing other substances"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.ingredient.role">
+      <path value="VirtualPackagePharmaceuticalProduct.ingredient.role"/>
+      <short value="active principle, color, excipient"/>
+      <definition value="active principle, color, excipient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.ingredient.strength[x]">
+      <path value="VirtualPackagePharmaceuticalProduct.ingredient.strength[x]"/>
+      <short value="strength of the ingridient"/>
+      <definition value="strength of the ingridient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Ratio"/>
+      </type>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <type>
+        <code value="Quantity"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.pharmaceuticalForm">
+      <path value="VirtualPackagePharmaceuticalProduct.pharmaceuticalForm"/>
+      <short value="pharmaceutical Form"/>
+      <definition value="pharmaceutical Form"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package">
+      <path value="VirtualPackagePharmaceuticalProduct.package"/>
+      <short value="packaging information"/>
+      <definition value="packaging information"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package.description">
+      <path value="VirtualPackagePharmaceuticalProduct.package.description"/>
+      <short value="description of the package"/>
+      <definition value="description of the package"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="markdown"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package.type">
+      <path value="VirtualPackagePharmaceuticalProduct.package.type"/>
+      <short value="type of package"/>
+      <definition value="type of package"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package.closureType">
+      <path value="VirtualPackagePharmaceuticalProduct.package.closureType"/>
+      <short value="type of closure"/>
+      <definition value="type of closure"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="VirtualPackagePharmaceuticalProduct.package.size">
+      <path value="VirtualPackagePharmaceuticalProduct.package.size"/>
+      <short value="size - nr of elements"/>
+      <definition value="size - nr of elements"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

@@ -1,0 +1,22 @@
+{
+  "package": "medication.ig.example",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/allergyintolerance-duration": [
+      "MedicinalProduct.kinetics.halfLifePeriod",
+      "PackagedMedicinalProduct.kinetics.halfLifePeriod",
+      "PharmaceuticalProdut.kinetics.halfLifePeriod",
+      "VirtualPackagePharmaceuticalProduct.kinetics.halfLifePeriod",
+      "VirtualPharmaceuticalProdut.kinetics.halfLifePeriod"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}
